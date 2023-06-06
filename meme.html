@@ -21,72 +21,83 @@
 
   <body>
     <header>
-      <nav class="navbar navbar-expand-sm navbar-light bg-light">
-        <div class="container">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button
-            class="navbar-toggler d-lg-none"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#collapsibleNavId"
-            aria-controls="collapsibleNavId"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="collapsibleNavId">
-            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  href="index.html"
-                  aria-current="page"
-                >
-                  <i class="bi bi-house-fill"></i>
-                  Home
-                  <span class="visually-hidden">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="quote.html">
-                  <i class="bi bi-journal-bookmark-fill"></i>
-                  Quote Me
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <i class="bi bi-archive-fill"></i>
-                  Blog
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <i class="bi bi-person-lines-fill"></i>
-                  Contact Page
-                </a>
-              </li>
-            </ul>
-            <form class="d-flex my-2 my-lg-0">
-              <input
-                class="form-control me-sm-2"
-                type="text"
-                placeholder="Search"
-              />
-              <button
-                class="btn btn-outline-success my-2 my-sm-0"
-                type="submit"
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+
+
+      <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler d-lg-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavId"
+          aria-controls="collapsibleNavId"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                href="index.html"
+                aria-current="page"
               >
-                Search
-              </button>
-            </form>
-          </div>
+                <i class="bi bi-house-fill"></i>
+                Home
+                <span class="visually-hidden">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="quote.html">
+                <i class="bi bi-journal-bookmark-fill"></i>
+                Quote Me
+                <span class="visually-hidden">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="meme.html">
+                <i class="bi bi-person-circle"></i>
+                Meme
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="bi bi-archive-fill"></i>
+                Blog
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="bi bi-person-lines-fill"></i>
+                Contact Page
+              </a>
+            </li>
+          </ul>
+          <form class="d-flex my-2 my-lg-0">
+            <input
+              class="form-control me-sm-2"
+              type="text"
+              placeholder="Search"
+            />
+            <button
+              class="btn btn-outline-success my-2 my-sm-0"
+              type="submit"
+            >
+              Search
+            </button>
+          </form>
         </div>
-      </nav>
+      </div>
+    </nav>
+    <!--End of Navigation-->
     </header>
     <main class="center">
       <h1>MEME</h1>
-      <img src="/images/vibes (1).png" id=myMeme alt="" />
+      <img src="/images/vibes (1).png" id="myMeme" alt="" />
       <br />
       <button id="quoteBTN" class="btn btn-primary">Click for a quote!</button>
       <br />
